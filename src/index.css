@@ -56,3 +56,8 @@ h3,
   font-family: 'M PLUS Rounded 1c', sans-serif;
   letter-spacing: -0.03em;
 }
+
+
+html {
+  scroll-behavior: smooth;
+}

@@ -24,9 +24,9 @@ function Navbar() {
               About
             </a>
   
-            <a className="hover:text-black transition duration-300 cursor-pointer">
-              Projects
-            </a>
+            <a href="#projects" className="hover:text-black transition duration-300">
+    Projects
+  </a>
   
             <a className="hover:text-black transition duration-300 cursor-pointer">
               Experience
@@ -39,28 +39,37 @@ function Navbar() {
           </div>
   
           {/* RIGHT SIDE */}
-          <div className="flex items-center gap-3 sm:gap-4 flex-shrink-0">
-  
-            {/* GitHub Button */}
-            <button className="secondary-button flex items-center gap-2">
-  
-              <img
-                src="/github.png"
-                alt="GitHub"
-                className="w-4 h-4 object-contain"
-              />
-  
-              <span className="hidden md:block ">
-                GitHub
-              </span>
-  
-            </button>
-  
-            {/* Resume Button */}
-            <button className="primary-button whitespace-nowrap gap-5">
-              Resume
-            </button>
-  
+<div className="flex items-center gap-3 sm:gap-4 flex-shrink-0">
+
+{/* GitHub Button */}
+<a
+  href="https://github.com/Murtaza88962"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="secondary-button flex items-center gap-2"
+>
+  <img
+    src="/github.png"
+    alt="GitHub"
+    className="w-4 h-4 object-contain"
+  />
+
+  <span className="hidden md:block">
+    GitHub
+  </span>
+</a>
+
+{/* Resume Button */}
+<a
+  href="/ALT_MurtazaSogiyawalaCV.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="primary-button whitespace-nowrap"
+>
+  Resume
+</a>
+
+
           </div>
   
         </div>

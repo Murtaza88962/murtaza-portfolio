@@ -111,7 +111,7 @@ function Hero() {
           </div>
   
           {/* BIO */}
-          <div id="bio" style={{ marginBottom: "3.5rem" }}>
+          <div id="bio" style={{ marginBottom: "3.5 rem" }}>
             <h2
               style={{
                 fontFamily: "'Georgia', serif",
@@ -149,7 +149,7 @@ function Hero() {
                     2003
                   </td>
                   <td style={{ color: "#333", lineHeight: 1.6 }}>
-                    Born in Indore, India 📍
+                    Born in Mumbai, India 📍
                   </td>
                 </tr>
                 <tr>
@@ -216,64 +216,8 @@ function Hero() {
           </div>
   
           {/* UNDER CONSTRUCTION */}
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              paddingTop: "2rem",
-            }}
-          >
-            <p
-              style={{
-                fontFamily: "'Helvetica Neue', Arial, sans-serif",
-                fontSize: "1rem",
-                fontWeight: "500",
-                color: "#999",
-                letterSpacing: "0.1em",
-                textTransform: "uppercase",
-                margin: 0,
-              }}
-            >
-              UNDER CONSTRUCTION
-              <span style={{ display: "inline-flex", marginLeft: "6px" }}>
-                <span
-                  style={{
-                    display: "inline-block",
-                    animation: "bounce 1s infinite",
-                    animationDelay: "-0.3s",
-                  }}
-                >
-                  .
-                </span>
-                <span
-                  style={{
-                    display: "inline-block",
-                    animation: "bounce 1s infinite",
-                    animationDelay: "-0.15s",
-                  }}
-                >
-                  .
-                </span>
-                <span
-                  style={{
-                    display: "inline-block",
-                    animation: "bounce 1s infinite",
-                  }}
-                >
-                  .
-                </span>
-              </span>
-            </p>
-          </div>
+          
         </div>
-  
-        <style>{`
-          @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-4px); }
-          }
-          a:hover { opacity: 0.75; }
-        `}</style>
       </section>
     );
   }
