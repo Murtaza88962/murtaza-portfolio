@@ -12,7 +12,7 @@ function Footer() {
               Murtaza Sogiyawala
             </span>
   
-            . All Rights Reserved.
+            .All Rights Reserved.
   
           </p>
   
